@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero" id="top">
+        <div class="hero-shell">
+          <header class="hero-topbar">
+            <a href="#top" class="hero-brand">Growa</a>
+            <nav class="hero-nav" aria-label="Основная навигация">
+              <a href="#pain">Проблема</a>
+              <a href="#solution">Решение</a>
+              <a href="#cases">Кейсы</a>
+              <a href="#compare">Сравнение</a>
+              <a href="#faq">FAQ</a>
+            </nav>
+            <div class="hero-topbar-actions">
+              <a href="https://t.me/hello_growa" class="hero-chip">Написать в Telegram</a>
+              <a href="#cta" class="hero-chip hero-chip-light" data-open-quiz>Получить демо</a>
+              <button
+                type="button"
+                class="hero-burger"
+                aria-label="Открыть меню"
+                aria-expanded="false"
+                aria-controls="hero-menu"
+              >
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </header>
+
+          <div class="hero-menu" id="hero-menu" aria-hidden="true">
+            <div class="hero-menu-backdrop" data-menu-close></div>
+            <div class="hero-menu-panel">
+              <div class="hero-menu-head">
+                <p class="hero-menu-label">Навигация</p>
+                <button
+                  type="button"
+                  class="hero-menu-close"
+                  aria-label="Закрыть меню"
+                  data-menu-close
+                >
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+              <nav class="hero-menu-nav" aria-label="Мобильная навигация">
+                <a href="#pain">Проблема</a>
+                <a href="#solution">Решение</a>
+                <a href="#features">Что внутри</a>
+                <a href="#cases">Кейсы</a>
+                <a href="#compare">Сравнение</a>
+                <a href="#pricing">Тариф</a>
+                <a href="#faq">FAQ</a>
+                <a href="#cta" data-open-quiz>Получить демо</a>
+              </nav>
+            </div>
+          </div>
+
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow eyebrow-dark">Собираем вручную за 24 часа</p>
+              <h1 class="hero-title">
+                Мы собираем для бизнеса готовый сайт под ключ за 24 часа и
+                превращаем его в рабочий инструмент для заявок и клиентов
+              </h1>
+              <p class="hero-subtitle">
+                Это не автоматический конструктор. Команда Growa вручную
+                собирает сайт под вашу нишу, под заявки и под запуск уже на
+                следующий день. Первые 14 дней бесплатно, дальше только 1190 ₽
+                в месяц за хостинг.
+              </p>
+              <div class="hero-actions">
+                <a href="#cta" class="button button-primary" data-open-quiz>Получить демо</a>
+                <a href="#cases" class="button button-secondary">Посмотреть примеры</a>
+              </div>
+              <div class="hero-proof-strip">
+                <p>Ручная сборка за 24 часа</p>
+                <p>14 дней бесплатно</p>
+                <p>Дальше 1190 ₽/мес за хостинг</p>
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="hero-stage">
+                <div class="hero-stage-glow"></div>
+                <div class="hero-ui hero-ui-main">
+                  <div class="hero-ui-head">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="hero-ui-body">
+                    <div class="hero-ui-pill"></div>
+                    <div class="hero-ui-title"></div>
+                    <div class="hero-ui-copy"></div>
+                    <div class="hero-ui-copy short"></div>
+                    <div class="hero-ui-grid">
+                      <div class="hero-ui-card">
+                        <p>Заявки в Telegram</p>
+                        <strong>Встроено</strong>
+                      </div>
+                      <div class="hero-ui-card">
+                        <p>Мобильная версия</p>
+                        <strong>Сразу</strong>
+                      </div>
+                    </div>
+                    <div class="hero-ui-cta">
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-ui hero-ui-side">
+                  <p class="hero-ui-side-label">Для запуска</p>
+                  <div class="hero-ui-side-line"></div>
+                  <div class="hero-ui-side-line short"></div>
+                  <div class="hero-ui-side-tags">
+                    <span>Beauty</span>
+                    <span>B2B</span>
+                    <span>Local</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pain">
+        <div class="container full-width">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Боль рынка</p>
+              <h2 class="section-title">Почему бизнес не любит делать сайт заново</h2>
+            </div>
+            <p class="lead compact">
+              Рынок уже устал от дорогих студий, долгих запусков и сайтов,
+              которые в итоге выглядят нормально, но не приносят заявок.
+            </p>
+          </div>
+          <div class="pain-grid">
+            <article class="pain-card">
+              <p class="pain-card-kicker">01</p>
+              <h3>Дорого</h3>
+              <p>Нормальный сайт часто начинается с бюджета, который для малого бизнеса просто неадекватен.</p>
+            </article>
+            <article class="pain-card">
+              <p class="pain-card-kicker">02</p>
+              <h3>Долго</h3>
+              <p>Пока согласуют структуру, тексты, дизайн и правки, бизнес уже теряет месяцы и клиентов.</p>
+            </article>
+            <article class="pain-card">
+              <p class="pain-card-kicker">03</p>
+              <h3>Сложно</h3>
+              <p>Нужно разбираться в подрядчиках, технических терминах и тратить время, которого у владельца нет.</p>
+            </article>
+            <article class="pain-card">
+              <p class="pain-card-kicker">04</p>
+              <h3>Не даёт клиентов</h3>
+              <p>Многие сайты просто существуют. Они не упаковывают оффер и не превращают трафик в заявки.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="solution">
+        <div class="container full-width">
+          <div class="solution-shell">
+            <div class="solution-copy">
+              <p class="eyebrow eyebrow-dark">Решение</p>
+              <h2 class="section-title">Growa собирает сайт быстро, под нишу и сразу под заявки</h2>
+              <p class="lead compact">
+                Мы не делаем “разработку ради разработки” и не даём вам пустой
+                шаблон. Берём нишу, оффер и сценарий заявки, собираем всё
+                руками за 24 часа и отдаём готовый сайт, который можно сразу
+                запускать.
+              </p>
+              <div class="solution-list">
+                <div class="solution-item">
+                  <h3>Под нишу</h3>
+                  <p>Упаковка собирается под ваш тип бизнеса, а не по универсальному шаблону “для всех”.</p>
+                </div>
+                <div class="solution-item">
+                  <h3>Под заявки</h3>
+                  <p>Структура, оффер, формы и кнопки заточены под действие, а не под “посмотреть сайт”.</p>
+                </div>
+                <div class="solution-item">
+                  <h3>Без лишнего участия</h3>
+                  <p>Вы не становитесь project manager. Мы собираем основу, вы быстро подтверждаете направление.</p>
+                </div>
+              </div>
+            </div>
+            <div class="solution-panel">
+              <div class="solution-panel-screen">
+                <div class="solution-panel-top">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="solution-panel-body">
+                  <div class="solution-panel-badge">24h launch</div>
+                  <div class="solution-panel-heading"></div>
+                  <div class="solution-panel-line"></div>
+                  <div class="solution-panel-line short"></div>
+                  <div class="solution-panel-tiles">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div class="solution-panel-footer"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="process">
+        <div class="container full-width">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Как это работает</p>
+              <h2 class="section-title">Простой запуск без лишней технической хрени</h2>
+            </div>
+            <p class="lead compact">
+              Человек оставляет заявку, быстро согласует направление и получает
+              готовый рабочий сайт, а не бесконечный процесс производства.
+            </p>
+          </div>
+          <div class="process-grid">
+            <article class="process-card">
+              <p class="process-card-step">Шаг 01</p>
+              <h3>Заявка</h3>
+              <p>Вы оставляете заявку и коротко пишете, какой сайт нужен и для какой ниши.</p>
+            </article>
+            <article class="process-card">
+              <p class="process-card-step">Шаг 02</p>
+              <h3>Анализ</h3>
+              <p>Смотрим оффер, нишу, точки заявки и понимаем, как быстро собрать рабочую структуру.</p>
+            </article>
+            <article class="process-card">
+              <p class="process-card-step">Шаг 03</p>
+              <h3>Сборка</h3>
+              <p>Собираем сайт: экран, блоки, формы, CTA, мобильную версию и базовую SEO-структуру.</p>
+            </article>
+            <article class="process-card">
+              <p class="process-card-step">Шаг 04</p>
+              <h3>Правки</h3>
+              <p>Вы даёте точечные комментарии, мы быстро вносим изменения без бесконечных кругов согласований.</p>
+            </article>
+            <article class="process-card">
+              <p class="process-card-step">Шаг 05</p>
+              <h3>Запуск</h3>
+              <p>Передаём готовый сайт, подключаем нужные точки заявки и можно сразу запускать трафик.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="container full-width">
+          <div class="section-heading">
+            <p class="eyebrow">Что внутри</p>
+            <h2 class="section-title">Не просто сайт, а готовый инструмент для получения заявок</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Заявки в мессенджеры</h3>
+              <p>Кнопки, формы и сценарии связи ведут клиента туда, где вам удобно общаться и закрывать сделку.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Онлайн-запись</h3>
+              <p>Подходит для beauty, услуг и локального бизнеса, где важно быстро записать клиента и не потерять его.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Аналитика</h3>
+              <p>Сайт можно сразу подключать к аналитике и видеть, что реально даёт заявки, а что нет.</p>
+            </article>
+            <article class="feature-card">
+              <h3>SEO-база</h3>
+              <p>Корректная структура, заголовки и контентная база, чтобы сайт не был полностью слепым для поиска.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Мобильная версия</h3>
+              <p>Собираем сразу под мобильный трафик, а не под десктопную картинку для владельца.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Скорость</h3>
+              <p>Быстрый запуск без длинного production-цикла. Сайт появляется тогда, когда он нужен бизнесу.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="cases">
+        <div class="container full-width">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Кейсы</p>
+              <h2 class="section-title">Результаты, а не просто галерея красивых экранов</h2>
+            </div>
+            <p class="lead compact">
+              Примеры того, как выглядит продукт на выходе: конкретная ниша,
+              понятная упаковка и сайт, который можно сразу использовать.
+            </p>
+          </div>
+          <div class="case-grid">
+            <article class="site-case-card">
+              <div class="site-case-screen screen-beauty"></div>
+              <div class="site-case-copy">
+                <p class="site-case-label">Beauty</p>
+                <h3>Сайт для студии красоты</h3>
+                <p>Быстрый оффер, запись на услуги, кнопки в мессенджеры и аккуратная mobile-first упаковка.</p>
+                <strong>Готов к запуску рекламы и записи клиентов</strong>
+              </div>
+            </article>
+            <article class="site-case-card">
+              <div class="site-case-screen screen-service"></div>
+              <div class="site-case-copy">
+                <p class="site-case-label">Услуги</p>
+                <h3>Лендинг для локального сервиса</h3>
+                <p>Понятный оффер, доверие, отзывы, сценарии связи и структура, которая не заставляет пользователя думать.</p>
+                <strong>Собран под заявку, а не под “посмотреть”</strong>
+              </div>
+            </article>
+            <article class="site-case-card">
+              <div class="site-case-screen screen-b2b"></div>
+              <div class="site-case-copy">
+                <p class="site-case-label">B2B</p>
+                <h3>Сайт для экспертного B2B-сервиса</h3>
+                <p>Строгая подача, блоки доверия, объяснение услуги и CTA для входа в диалог без перегруза деталями.</p>
+                <strong>Подходит для продаж через заявки и демо</strong>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="audience">
+        <div class="container full-width">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark">Для кого</p>
+              <h2 class="section-title">Ниши, которым нужен быстрый сайт под поток заявок</h2>
+            </div>
+            <p class="lead compact dark-copy">
+              Если бизнесу нужен не арт-проект на 3 месяца, а внятный сайт,
+              который можно быстро запустить и сразу использовать в продаже.
+            </p>
+          </div>
+          <div class="audience-grid">
+            <article class="audience-card"><h3>Beauty</h3><p>Салоны, студии, косметология, мастера.</p></article>
+            <article class="audience-card"><h3>Услуги</h3><p>Ремонт, медицина, обучение, сервисные компании.</p></article>
+            <article class="audience-card"><h3>Эксперты</h3><p>Личный бренд, консультации, курсы, авторские продукты.</p></article>
+            <article class="audience-card"><h3>B2B</h3><p>Компании, которым нужен строгий сайт под входящий поток.</p></article>
+            <article class="audience-card"><h3>Локальный бизнес</h3><p>Всё, что работает через доверие и быстрый контакт.</p></article>
+            <article class="audience-card"><h3>Инфобиз</h3><p>Воронки, вебинары, заявки, упаковка оффера под запуск.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="compare">
+        <div class="container full-width">
+          <div class="section-heading">
+            <p class="eyebrow">Сравнение</p>
+            <h2 class="section-title">Почему это проще, чем студия, фрилансер или конструктор</h2>
+          </div>
+          <div class="compare-table-wrap">
+            <table class="compare-table">
+              <thead>
+                <tr>
+                  <th>Параметр</th>
+                  <th class="compare-accent">Growa</th>
+                  <th>Студия</th>
+                  <th>Фриланс</th>
+                  <th>Конструктор</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Скорость</td>
+                  <td class="compare-accent">24 часа</td>
+                  <td>Недели</td>
+                  <td>Как повезёт</td>
+                  <td>Быстро, если делать самому</td>
+                </tr>
+                <tr>
+                  <td>Стоимость входа</td>
+                  <td class="compare-accent">Низкий порог</td>
+                  <td>Высокая</td>
+                  <td>Средняя</td>
+                  <td>Низкая</td>
+                </tr>
+                <tr>
+                  <td>Ваше участие</td>
+                  <td class="compare-accent">Минимум</td>
+                  <td>Много согласований</td>
+                  <td>Нужно контролировать</td>
+                  <td>Всё на вас</td>
+                </tr>
+                <tr>
+                  <td>Фокус на заявках</td>
+                  <td class="compare-accent">Да</td>
+                  <td>Не всегда</td>
+                  <td>Зависит от исполнителя</td>
+                  <td>Зависит от вас</td>
+                </tr>
+                <tr>
+                  <td>Риск затянуть запуск</td>
+                  <td class="compare-accent">Низкий</td>
+                  <td>Высокий</td>
+                  <td>Высокий</td>
+                  <td>Средний</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing-section" id="pricing">
+        <div class="container full-width">
+          <div class="pricing-shell">
+            <div class="pricing-copy">
+              <p class="eyebrow">Тариф / оффер</p>
+              <h2 class="section-title">Первые 14 дней бесплатно. Дальше только хостинг — 1190 ₽ в месяц</h2>
+              <p class="lead compact">
+                Мы сами собираем сайт за 24 часа, запускаем и даём вам
+                спокойно посмотреть, как он работает в реальности. Дальше вы
+                платите только за хостинг, без дорогой разработки и бесконечных
+                продакшн-смет.
+              </p>
+            </div>
+            <div class="pricing-card">
+              <p class="pricing-card-kicker">Условия запуска</p>
+              <h3>14 дней бесплатно</h3>
+              <p class="pricing-card-copy">
+                Запускаем сайт, показываем, как он выглядит и как собирает
+                заявки. После тестового периода остаётся только оплата
+                хостинга.
+              </p>
+              <ul class="pricing-points">
+                <li>Сайт собирает команда, а не безликий конструктор</li>
+                <li>Готовая мобильная версия и формы заявок</li>
+                <li>14 дней на спокойный тест без оплаты</li>
+                <li>Дальше только 1190 ₽/мес за хостинг</li>
+              </ul>
+              <a href="#cta" class="button button-primary pricing-button" data-open-quiz>Получить демо</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container full-width">
+          <div class="section-heading">
+            <p class="eyebrow">FAQ</p>
+            <h2 class="section-title">Что обычно спрашивают до старта</h2>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item is-open">
+              <button class="faq-trigger" type="button" aria-expanded="true">
+                <span class="faq-question">Почему так быстро и почему это не “сырой шаблон”?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-panel">
+                <p class="faq-answer">
+                  Потому что у нас уже есть понятная система сборки под
+                  типовые ниши. Команда не начинает проект с белого листа, а
+                  быстро собирает рабочую структуру под заявки и ваш оффер.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" type="button" aria-expanded="false">
+                <span class="faq-question">Что если мне не понравится первый вариант?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-panel">
+                <p class="faq-answer">
+                  Мы не отдаём “как получилось”. Направление согласуется заранее,
+                  потом вы даёте точечные правки и мы быстро доводим сайт до
+                  рабочего состояния.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" type="button" aria-expanded="false">
+                <span class="faq-question">Кому принадлежит сайт?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-panel">
+                <p class="faq-answer">
+                  Сайт делается под ваш бизнес и используется как ваш рабочий
+                  актив. Детали передачи и доступа фиксируются до старта.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" type="button" aria-expanded="false">
+                <span class="faq-question">Что входит в запуск?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-panel">
+                <p class="faq-answer">
+                  Структура, ручная сборка, мобильная версия, формы, кнопки
+                  связи, базовая SEO-подготовка и запуск сайта в рабочий режим.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger" type="button" aria-expanded="false">
+                <span class="faq-question">Можно ли сначала посмотреть демо или пример?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-panel">
+                <p class="faq-answer">
+                  Да. Оставляете заявку, мы понимаем нишу и показываем, как
+                  может выглядеть сайт и сценарий заявки именно для вашего
+                  бизнеса.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="materials">
+        <div class="container full-width">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Блог / кейсы</p>
+              <h2 class="section-title">Материалы, которые помогают быстрее понять продукт</h2>
+            </div>
+            <p class="lead compact">
+              Если человек ещё не готов оставить заявку, он всё равно может
+              быстро понять, как мы собираем сайты под конкретные ниши и что
+              именно получает бизнес на выходе.
+            </p>
+          </div>
+          <div class="materials-grid">
+            <article class="materials-item">
+              <p class="materials-label">Кейс</p>
+              <h3>Сайт для салона красоты за 24 часа</h3>
+              <p>Как быстро собрать страницу с записью, ценностями и внятным первым экраном.</p>
+            </article>
+            <article class="materials-item">
+              <p class="materials-label">Разбор</p>
+              <h3>Почему большинство сайтов не дают заявок даже при нормальном трафике</h3>
+              <p>Где ломается упаковка и почему бизнесу кажется, что “реклама не работает”.</p>
+            </article>
+            <article class="materials-item">
+              <p class="materials-label">Статья</p>
+              <h3>Сайт от студии, фрилансера или ручная сборка за день?</h3>
+              <p>Когда нет смысла переплачивать за процесс, если нужен быстрый рабочий инструмент.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta" id="cta">
+        <div class="final-cta-main">
+          <div class="container full-width">
+            <div class="final-cta-shell">
+              <p class="final-cta-wordmark" aria-hidden="true">Growa</p>
+              <div class="final-cta-copy">
+                <p class="eyebrow eyebrow-dark">Финальный CTA</p>
+                <h2 class="section-title">Покажем, как будет выглядеть ваш сайт и что он должен делать для заявок</h2>
+                <p class="lead compact">
+                  Без длинного брифа и проектной бюрократии. Оставьте короткую
+                  заявку и мы быстро соберём направление под вашу нишу.
+                </p>
+                <div class="final-cta-reassurance">
+                  <p>Быстрый старт</p>
+                  <p>Понятный сценарий заявки</p>
+                  <p>Упор на продажи, а не на декор</p>
+                </div>
+              </div>
+
+              <div class="final-cta-form-wrap">
+                <div class="final-cta-quiz js-quiz" data-quiz-source="final">
+                  <div class="final-cta-quiz-step is-active" data-step="1">
+                    <p class="final-cta-quiz-label">Шаг 1 из 3</p>
+                    <h3>Какой сайт нужен в первую очередь?</h3>
+                    <div class="final-cta-options">
+                      <button type="button" class="final-cta-option" data-next-step="2">Лендинг под услуги</button>
+                      <button type="button" class="final-cta-option" data-next-step="2">Сайт для локального бизнеса</button>
+                      <button type="button" class="final-cta-option" data-next-step="2">Сайт для эксперта</button>
+                      <button type="button" class="final-cta-option" data-next-step="2">B2B сайт / презентация</button>
+                    </div>
+                  </div>
+
+                  <div class="final-cta-quiz-step" data-step="2">
+                    <p class="final-cta-quiz-label">Шаг 2 из 3</p>
+                    <h3>Какая у вас ниша?</h3>
+                    <div class="final-cta-options">
+                      <button type="button" class="final-cta-option" data-next-step="3">Beauty / услуги</button>
+                      <button type="button" class="final-cta-option" data-next-step="3">Локальный бизнес</button>
+                      <button type="button" class="final-cta-option" data-next-step="3">Эксперт / инфобиз</button>
+                      <button type="button" class="final-cta-option" data-next-step="3">B2B / сервис</button>
+                    </div>
+                    <button type="button" class="final-cta-back">Назад</button>
+                  </div>
+
+                  <div class="final-cta-quiz-step" data-step="3">
+                    <p class="final-cta-quiz-label">Шаг 3 из 3</p>
+                    <h3>Куда отправить демо или КП?</h3>
+                    <div class="final-cta-contact-switch">
+                      <button type="button" class="final-cta-option is-active" data-contact-type="telegram">Telegram</button>
+                      <button type="button" class="final-cta-option" data-contact-type="email">Email</button>
+                    </div>
+                    <label class="final-cta-inline-field">
+                      <span>Контакт</span>
+                      <input type="text" name="contact" placeholder="@username или hello@growa.ru" />
+                    </label>
+                    <label class="quiz-consent">
+                      <input type="checkbox" name="privacy_consent" />
+                      <span>
+                        Даю
+                        <a href="./consent.html" target="_blank" rel="noopener noreferrer">согласие на обработку персональных данных</a>
+                        и подтверждаю, что ознакомился с
+                        <a href="./privacy.html" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a>.
+                      </span>
+                    </label>
+                    <div class="final-cta-actions">
+                      <button type="button" class="button button-primary" data-submit-lead>Получить демо</button>
+                      <a href="https://t.me/hello_growa" class="button button-secondary">Написать в Telegram</a>
+                    </div>
+                    <p class="quiz-status" aria-live="polite"></p>
+                    <button type="button" class="final-cta-back">Назад</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="final-cta-footer">
+          <div class="container full-width">
+            <div class="footer-shell">
+              <div class="footer-brand">
+                <p class="footer-logo">Growa</p>
+                <p class="footer-copy">Ручная сборка сайтов под ключ за 24 часа с фокусом на заявки и продажи.</p>
+              </div>
+              <div class="footer-column">
+                <p class="footer-label">Навигация</p>
+                <a href="#solution">Решение</a>
+                <a href="#cases">Кейсы</a>
+                <a href="#pricing">Тариф</a>
+              </div>
+              <div class="footer-column">
+                <p class="footer-label">Контакты</p>
+                <a href="mailto:hello@growa.ru">hello@growa.ru</a>
+                <a href="https://t.me/hello_growa">Написать в Telegram</a>
+              </div>
+              <div class="footer-meta">
+                <a href="./privacy.html" target="_blank">Политика конфиденциальности</a>
+                <a href="./terms.html" target="_blank">Пользовательское соглашение</a>
+                <a href="./consent.html" target="_blank">Согласие на обработку персональных данных</a>
+                <p class="footer-note">© 2026 Growa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="conversion-popup" aria-hidden="true">
+      <div class="conversion-popup-backdrop" data-popup-close></div>
+      <div class="conversion-popup-panel" role="dialog" aria-modal="true" aria-label="Получить демо">
+        <button type="button" class="conversion-popup-close" aria-label="Закрыть" data-popup-close>
+          <span></span>
+          <span></span>
+        </button>
+        <p class="conversion-popup-label">Быстрый старт</p>
+        <h3 class="conversion-popup-title">Покажем, как может выглядеть ваш сайт уже в ближайшие 24 часа</h3>
+        <p class="conversion-popup-copy">
+          Ответьте на 2 коротких вопроса. Без длинного брифа и лишней технической переписки.
+        </p>
+        <div class="final-cta-quiz js-quiz" data-quiz-source="popup">
+          <div class="final-cta-quiz-step is-active" data-step="1">
+            <p class="final-cta-quiz-label">Шаг 1 из 3</p>
+            <h3>Какой сайт нужен в первую очередь?</h3>
+            <div class="final-cta-options">
+              <button type="button" class="final-cta-option" data-next-step="2">Лендинг под услуги</button>
+              <button type="button" class="final-cta-option" data-next-step="2">Сайт для локального бизнеса</button>
+              <button type="button" class="final-cta-option" data-next-step="2">Сайт для эксперта</button>
+              <button type="button" class="final-cta-option" data-next-step="2">B2B сайт / презентация</button>
+            </div>
+          </div>
+
+          <div class="final-cta-quiz-step" data-step="2">
+            <p class="final-cta-quiz-label">Шаг 2 из 3</p>
+            <h3>Какая у вас ниша?</h3>
+            <div class="final-cta-options">
+              <button type="button" class="final-cta-option" data-next-step="3">Beauty / услуги</button>
+              <button type="button" class="final-cta-option" data-next-step="3">Локальный бизнес</button>
+              <button type="button" class="final-cta-option" data-next-step="3">Эксперт / инфобиз</button>
+              <button type="button" class="final-cta-option" data-next-step="3">B2B / сервис</button>
+            </div>
+            <button type="button" class="final-cta-back">Назад</button>
+          </div>
+
+          <div class="final-cta-quiz-step" data-step="3">
+            <p class="final-cta-quiz-label">Шаг 3 из 3</p>
+            <h3>Куда отправить демо или КП?</h3>
+            <div class="final-cta-contact-switch">
+              <button type="button" class="final-cta-option is-active" data-contact-type="telegram">Telegram</button>
+              <button type="button" class="final-cta-option" data-contact-type="email">Email</button>
+            </div>
+            <label class="final-cta-inline-field">
+              <span>Контакт</span>
+              <input type="text" name="contact" placeholder="@username или hello@growa.ru" />
+            </label>
+            <label class="quiz-consent">
+              <input type="checkbox" name="privacy_consent" />
+              <span>
+                Даю
+                <a href="./consent.html" target="_blank" rel="noopener noreferrer">согласие на обработку персональных данных</a>
+                и подтверждаю, что ознакомился с
+                <a href="./privacy.html" target="_blank" rel="noopener noreferrer">политикой конфиденциальности</a>.
+              </span>
+            </label>
+            <div class="final-cta-actions">
+              <button type="button" class="button button-primary" data-submit-lead>Получить демо</button>
+              <a href="https://t.me/hello_growa" class="button button-secondary">Написать в Telegram</a>
+            </div>
+            <p class="quiz-status" aria-live="polite"></p>
+            <button type="button" class="final-cta-back">Назад</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sticky-widget" aria-hidden="false">
+      <button type="button" class="sticky-widget-toggle" aria-expanded="false" aria-controls="sticky-widget-menu">
+        <span>Быстрый старт</span>
+      </button>
+      <div class="sticky-widget-menu" id="sticky-widget-menu">
+        <a href="https://t.me/hello_growa" class="sticky-widget-link">Написать в Telegram</a>
+        <button type="button" class="sticky-widget-link" data-open-quiz>Получить демо</button>
+        <a href="#cases" class="sticky-widget-link">Посмотреть примеры</a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
