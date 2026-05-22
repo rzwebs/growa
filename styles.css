@@ -37,6 +37,72 @@ body {
   font-family: "Manrope", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Typography System - Claude Anthropic Style */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+small, .text-small {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.text-muted {
+  color: var(--text-secondary);
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 button,
@@ -50,16 +116,6 @@ select {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol {
-  margin: 0;
 }
 
 button {
