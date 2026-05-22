@@ -13,7 +13,7 @@
   --accent: #d97757;
   --accent-soft: rgba(217, 119, 87, 0.12);
   --accent-gradient: linear-gradient(135deg, #d97757 0%, #e88a6b 100%);
-  --section-title-size: 56px;
+  --section-title-size: 48px;
   --section-space: 96px;
   --radius-lg: 24px;
   --radius-md: 18px;
@@ -449,7 +449,7 @@ button {
 
 .hero-title {
   max-width: 900px;
-  font-size: clamp(48px, 6vw, 84px);
+  font-size: clamp(32px, 5vw, 48px);
   line-height: 0.94;
   letter-spacing: -0.08em;
   font-weight: 800;
